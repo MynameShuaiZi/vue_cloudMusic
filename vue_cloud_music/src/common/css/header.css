@@ -1,0 +1,74 @@
+.header{
+    width:100%;
+    height:104px;
+    box-sizing: border-box;
+}
+.header-title{
+    background-color:#D43C33;
+    height:64px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:100;
+    box-sizing:border-box;
+    line-height: 64px;
+    font-size:20px;
+}
+.header-logo{
+  margin:0 auto;
+}
+.header-logo>a,.header-download>a{
+    color:#FFFFFF;
+}
+.header-logo>img{
+  width:35px;
+  height:35px;
+}
+.header-download{
+    border:1px solid #FFFFFF;
+    border-radius:10px;
+    height:30px;
+
+    line-height:30px;
+    position:relative;
+    top:25%;
+}
+.header-nav{
+    font-size:17px;
+    position:fixed;
+    top:64px;
+    left:0px;
+    z-index:100;
+    width:100%;
+    height: 40px;
+    background-color:#FFFFFF;
+    border-bottom:1px solid #CCCCCC
+}
+.header-nav>ul{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav li{
+   float:left;
+   width:33%;
+   height:100%;
+   text-align: center;
+   line-height: 40px;
+  cursor:pointer;
+}
+/*.header-nav .hover:active{*/
+  /*color:#D33A31;*/
+/*}*/
+.header-nav .nav-link{
+  display:inline-block;
+  height:100%;
+}
+.router-link-active .nav-link{
+  color:#D33A31;
+  border-bottom:2px solid #D33A31;
+}
